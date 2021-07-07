@@ -3,94 +3,43 @@
 
 |CyVerse_logo|_
 
-|Home_Icon|_
-`Learning Center Home <http://learning.cyverse.org/>`_
-
-
-**WORKSHOP NAME**
-=================
-
-.. #### Comment: If the platform has an ICON place it here
-
-Welcome to [Longer_Workshop_Name]!
+Welcome to Foundational Open Science Skills!
 -----------------------
-.. #### Comment: If the platform has an ICON place it here
 
 ----
 
-
+.. toctree::
+        :hidden:
+	:maxdepth: 3
+        
+        Home Page <self>
+        Before FOSS Starts <pre_foss/index.rst>
+        Schedule <schedule.rst>
+        FAQ <faq.rst>
 
 .. toctree::
-	:maxdepth: 1
-  :caption: Before [Workshop] Starts
+        :hidden:
+	:maxdepth: 2
+        :caption: Workshop Content
 
-  before/main <self>
-  before/installation
-  before/faq
-  before/code_of_conduct
-  
-
-
-.. toctree::
-	:maxdepth: 1
-  :caption: Key information
-
-getting_started/agenda
-getting_started/instructors
-getting_started/glossary
-
-
+        Intro to Open Science <01_intro_open_sci.rst>
+        Example Project Pipeline <02_example_pipeline.rst>
+        Managing Data <03_managing_data.rst>
+        Documentation and Communication <04_documentation_communication.rst>
+        Version Control <05_version_control.rst>
+        Repetition <06_repetition.rst>
+        Reproducibility <07_reproducibility.rst>
 
 .. toctree::
-  :maxdepth: 1
-  :caption: [Area_1]
+        :hidden:
+	:maxdepth: 3
+        :caption: Final Project
 
-  area_1/topic_1 <topic1.rst>
-  area_1/topic_2 <topic2.rst>
-
-
-
-  .. toctree::
-    :maxdepth: 1
-    :caption: [Area_2]
-
-    area_2/topic_1 <topicX.rst>
-    area_2/topic_2 <topicY.rst>
-
-
-
-	Delete this example guide page <example_directives_delete.rst>
-
-..
-	#### Comment: This manual has multiple pages. The table of contents assumes
-	you have an additional page called 'Platform Dashboard/Landing Page' with
-	content located in 'topic1.rst'. Copy 'topic2.rst' as many times as needed
-	for each major feature you using, and increment the number in your filename.
-	Finally, make sure that the last major feature uses the 'step3.rst' template,
-	as it has slightly different formatting to end the document.
-	Edit these titles and filenames as needed. Finally use 'faq.rst' to
-	create your list of Frequently Asked Questions. ####
-
-----
-
-.. #### Comment: Each platform should have a quick slide show or possibly video
-   tour. Slide shows should be HTML5, videos from YouTube
-
-.. raw:: html
-
-    <div style="position: relative; padding-bottom: 56.25%; height: 0;
-    overflow: hidden; max-width: 100%; height: auto;">
-        <iframe src="./_static/slides/index.html" frameborder="0" allowfullscreen
-        style="position: absolute; top: 0; left: 0; width: 100%;
-        height: 100%;"></iframe>
-    </div>
+        Overview <pre_foss/index.rst>
+        Examples <pre_foss/index.rst>
 
 ----
 [About this workshop]
-.. #### Comment: Explain the main purpose of this workshop, intended audience,
-  Prerequisites, and anything else you think may be helpful for a person to
-  decide to attend.
-
 
 
 Expected outcomes:
